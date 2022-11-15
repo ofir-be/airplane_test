@@ -50,7 +50,7 @@ def main(params):
 
 
 
-    l1 = ['Active Fence_1', 260]
+    l1 = ['Active Fence_2', 260]
     df2 = pd.DataFrame(columns = ['COMPANY_NAME', 'CURRENT_COVERAGE'])
     new_df = pd.DataFrame([l1], columns = ['COMPANY_NAME', 'CURRENT_COVERAGE'])
     df2 = pd.concat([df2,new_df], axis=0, ignore_index=True)
